@@ -1,0 +1,22 @@
+.model {
+    width: 60%;
+    border: solid black 2px;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-auto-rows: minmax(300px, auto);
+}
+
+.model>div {
+    border: springgreen solid 1px;
+}
+
+.signal {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: space-around;
+}
+
+.signal div {
+    border: 1px solid black;
+    width: 100%;
+}
