@@ -6,6 +6,8 @@ $(document).ready(function(){
     let carryHandler = $('#carry')
     let prevHandler = $('#prev')
     let nextHandler = $('#next')
+    let startHandler = $('#start')
+    let endHandler = $('#end')
     
     
     
@@ -70,6 +72,9 @@ $(document).ready(function(){
         }else{
             carryHandler.css('background' , 'green')
         }
+
+        startHandler.text(data[index].timeStart + 'ms ')
+        endHandler.text(data[index].timeEnd + 'ms ')
         
     }
     
