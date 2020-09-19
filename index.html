@@ -4,25 +4,27 @@
 <head>
     <title></title>
     <link rel="stylesheet" href="index.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="index.js"></script>
 </head>
 
 <body>
     <h3>Visualization of Half Adder</h3>
     <div class="model">
         <div class="signal">
-            <div>InputA</div>
-            <div>InputB</div>
+            <div id='input1'>InputA</div>
+            <div id='input2'>InputB</div>
         </div>
         <div class="box">Black Boxx</div>
         <div class="signal">
-            <div>Sum</div>
-            <div>Carry</div>
+            <div id='sum'>Sum</div>
+            <div id='carry'>Carry</div>
         </div>
     </div>
 
     <div class="buttons">
-        <button>Previous</button>
-        <button>Next</button>
+        <button id='prev'>Previous</button>
+        <button id='next'>Next</button>
     </div>
 </body>
 
