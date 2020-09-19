@@ -11,10 +11,11 @@ $(document).ready(function() {
     let box = $(".box");
 
     let data = [
-        { inputA: 0, inputB: 1, sum: 0, carry: 1, timeStart: 0, timeEnd: 100 },
-        { inputA: 1, inputB: 0, sum: 0, carry: 1, timeStart: 100, timeEnd: 200 },
-        { inputA: 1, inputB: 1, sum: 1, carry: 0, timeStart: 200, timeEnd: 300 },
+        { inputA: 0, inputB: 1, sum: 1, carry: 0, timeStart: 0, timeEnd: 100 },
+        { inputA: 1, inputB: 0, sum: 1, carry: 0, timeStart: 100, timeEnd: 200 },
+        { inputA: 1, inputB: 1, sum: 0, carry: 1, timeStart: 200, timeEnd: 300 },
         { inputA: 1, inputB: 0, sum: 1, carry: 0, timeStart: 300, timeEnd: 400 },
+        { inputA: 0, inputB: 0, sum: 0, carry: 0, timeStart: 400, timeEnd: 500 },
     ];
 
     prevHandler.attr("disabled", true);
